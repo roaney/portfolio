@@ -3,7 +3,7 @@
     <style>
         path {
             fill: black;
-            stroke: white;
+            stroke: #00FF00;
             stroke-width: 1px;
         }
     </style>
