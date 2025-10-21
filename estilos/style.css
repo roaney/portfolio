@@ -44,12 +44,14 @@ header {
     color: var(--destaque);
 }
 main {
-
+    display: grid;
+    grid-template-columns: auto 90% auto;
 }
 #ficha {
     background-color: var(--fundo-card);
     padding: 20px;
     border-radius: 8px;
+    grid-column: 2 / -2;
 }
 #ficha img.foto {
     width: 200px;
@@ -59,4 +61,21 @@ main {
     overflow: hidden;
     border: 5px solid var(--fundo-card);
     outline: 5px solid var(--destaque);
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#ficha h1 {
+    color: var(--destaque);
+    margin: 15px 0px;
+    text-align: left;
+    line-height: 1.5em;
+}
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    gap: 10px;
+    margin-top: 15px;
 }
